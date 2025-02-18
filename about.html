@@ -1,0 +1,193 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prerna's Portfolio</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+     *{
+      margin: 0;
+      padding: 0;
+      }
+
+     body{
+          background-color :rgb(37, 52, 78);
+          color: rgb(250, 248, 250);
+          font-family: 'Poppins', sans-serif;
+         }
+
+    main hr{
+           border: 0;
+           background-color: lightblue;
+           height: 1.2px;
+           margin: 40px 84px;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color:  rgb(206, 119, 178);
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+   nav ul li{
+          list-style: none;
+          padding: 2px;
+          margin: 0px 24px;
+   }
+   
+   nav ul li a{
+          text-decoration: none;
+          color: white;
+   }
+   
+   nav ul li a:hover{
+          font-size: 1.1rem;
+          color: rgb(37, 52, 78);
+   }
+
+   .left {
+          font-size: 24px;
+          margin: 20px;
+   }
+   
+   .right {
+          font-size: 1rem;
+   }
+
+   .firstSection{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              margin: 80px 0;
+             }
+
+   .about-container {
+        text-align: center;
+        max-width: 800px;
+        margin: auto;
+   }
+
+   .skills-container {
+        text-align: center;
+        max-width: 800px;
+        margin: auto;
+        margin-top: 40px;
+   }
+
+   .skills-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+   }
+
+   .skill {
+        background-color: rgb(206, 119, 178);
+        color: white;
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 16px;
+   }
+
+   table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background: rgb(37, 52, 78);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    th, td {
+        padding: 12px;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+    }
+    
+    th {
+        background: rgb(206, 119, 178);
+        color: white;
+    }
+</style>
+</head>
+<body> 
+     <header>
+           <nav>
+                <div class="left">Welcome to my Portfolio</div>
+                <div class="right">
+                <ul> 
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="about.html">About</a></li>
+                   
+                   <li><a href="#">Projects</a></li>
+                   <li><a href="#">Contact</a></li>
+                </ul>
+               </div>
+           </nav>
+    </header>
+    <main> 
+       <section class="firstSection">
+          <div class="about-container">
+              <h2>About Me</h2>
+              <p>Hello! I'm Prerna, a passionate Computer Science and Design student at Rajiv Gandhi Institute of Petroleum Technology. I have a keen interest in front-end development, UI/UX design, and data science. I enjoy creating user-friendly, interactive web applications and continuously learning new technologies.</p>
+          </div>
+      </section>
+      
+      <section class="skills-container">
+          <h2>Skills</h2>
+          <div class="skills-list">
+              <span class="skill">HTML</span>
+              <span class="skill">CSS</span>
+              <span class="skill">JavaScript</span>
+              <span class="skill">React.js</span>
+              <span class="skill">Microsoft Excel</span>
+              <span class="skill">Microsoft PowerBi</span>
+              <span class="skill">Python</span>
+              <span class="skill">Data Science</span>
+              <span class="skill">My Sql</span>
+          </div>
+      </section>
+      
+      <section id="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Percentage/CPI</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>B-Tech Computer Science And Design</td>
+                    <td>Rajiv Gandhi Institute of Petroleum Technology</td>
+                    <td>8.43</td>
+                    <td>2023-2027</td>
+                </tr>
+                <tr>
+                    <td>Senior Secondary</td>
+                    <td>Shanti Niketan School</td>
+                    <td>94.4%</td>
+                    <td>2021-2022</td>
+                </tr>
+                <tr>
+                    <td>Secondary</td>
+                    <td>St Clares Sr Sec School</td>
+                    <td>93%</td>
+                    <td>2019-2020</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
